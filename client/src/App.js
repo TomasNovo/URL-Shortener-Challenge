@@ -110,7 +110,7 @@ class App extends Component
         ): (
           this.state.stats.map((entry) => ( 
             <div key={entry._id}>
-              <p>{entry.longUrl}</p>
+              <p><b>{entry.longUrl}</b></p>
               <p>Number of times URL was shortened: {entry.count_short}</p>
               <p>Number of times new URL was accessed: {entry.count_access}</p>
               <p>---------------------</p>
