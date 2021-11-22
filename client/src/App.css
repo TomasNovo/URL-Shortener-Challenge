@@ -1,0 +1,16 @@
+#shortener
+{
+    text-align: center;
+}
+
+h1
+{
+    margin: auto;
+    text-align: center;
+}
+
+#url
+{
+    size: 2em;
+    width: 500px;
+}
